@@ -1,0 +1,36 @@
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / type / lint caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local env files (backend)
+.env
+.env.*
+!.env.example
+
+# Runtime folders
+uploads/
+exports/
+output/
+.cache/
+
+# Logs
+*.log
